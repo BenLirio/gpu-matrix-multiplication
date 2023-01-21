@@ -1,0 +1,3 @@
+project(gpu_matrix_multiplication)
+enable_language(CUDA)
+add_executable(gpu_matrix_multiplication main.cu)
